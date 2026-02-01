@@ -18,3 +18,13 @@ def input_b():
         print(f"Значение B сохранено: {b}")
     except ValueError:
         print("Ошибка! Введите числовое значение.")
+def multiply():
+    result = a * b
+    print(f"Результат умножения ({a} * {b}) = {result}")
+
+def divide():
+    if b != 0:
+        result = a / b
+        print(f"Результат деления ({a} / {b}) = {result}")
+    else:
+        print("Ошибка: Деление на ноль невозможно!")
