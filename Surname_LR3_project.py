@@ -11,3 +11,10 @@ def input_a():
         print(f"Значение A сохранено: {a}")
     except ValueError:
         print("Ошибка! Введите числовое значение.")
+def input_b():
+    global b
+    try:
+        b = float(input("Введите число B: "))
+        print(f"Значение B сохранено: {b}")
+    except ValueError:
+        print("Ошибка! Введите числовое значение.")
